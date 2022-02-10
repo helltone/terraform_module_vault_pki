@@ -25,7 +25,7 @@ data "azurerm_client_config" "current" {
 }
 
 provider "vault" {
-  address      = "https://vault.cloud.${terraform.workspace}.nominum.com"
+  address      = "https://vault.cloud.${terraform.workspace}.example.com"
   ca_cert_file = "/ca-vault.crt"
 }
 

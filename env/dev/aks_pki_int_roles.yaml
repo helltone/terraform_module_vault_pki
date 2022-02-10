@@ -1,0 +1,13 @@
+- "allow_subdomains": "true"
+  "allowed_domains": "kubernetes"
+  "generate_lease": "true"
+  "key_usage":
+  - "DigitalSignature"
+  - "KeyAgreement"
+  - "KeyEncipherment"
+  "max_ttl": "86400"
+  "name": "aks-default"
+  "service_account":
+  - "aks-default"
+  "service_account_namespaces":
+  - "default"
